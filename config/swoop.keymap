@@ -127,7 +127,7 @@
             label = "SYMBOL";
             bindings = <
 &kp ESC  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp KP_NUMBER_0    &kp LG(R)  &kp LG(L)       &kp UP    &trans     &trans
-&kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &mt LEFT_ALT NUMBER_6  &kp DOT            &trans     &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans
+&kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &mt LEFT_ALT NUMBER_6  &kp DOT            &trans     &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &kp DQT
 &kp DEL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3        &kp AT_SIGN        &trans     &trans          &trans    &trans     &trans
                           &trans           &trans                 &trans             &trans     &trans          &trans
             >;
