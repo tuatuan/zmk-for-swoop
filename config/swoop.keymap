@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
 / {
@@ -103,7 +102,7 @@
             label = "Base";
             bindings = <
 &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y           &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D             &kp F      &kp G    &kp H           &kp J  &kp K      &kt L    &kp ENTER
+&kp A  &kp S  &kp D             &kp F      &kp G    &kp H           &kp J  &kp K      &kp L    &kp ENTER
 &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N           &kp M  &kp COMMA  &kp DOT  &kp BACKSPACE
               &kp LEFT_CONTROL  &kp SPACE  &mo 2    &kp LEFT_SHIFT  &mo 1  &mo 3
             >;
