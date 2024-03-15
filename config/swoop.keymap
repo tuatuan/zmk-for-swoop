@@ -125,7 +125,7 @@
 &kp ESC  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp KP_NUMBER_0    &kp LG(R)  &kp LG(L)       &kp UP    &trans      &kp BACKSPACE
 &kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &mt LEFT_ALT NUMBER_6  &trans             &trans     &kp LEFT_ARROW  &kp DOWN  &kp RIGHT   &kp APOSTROPHE
 &kp DEL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3        &trans             &trans     &kp C_PREV      &kp C_PP  &kp C_NEXT  &trans
-                          &trans           &trans                 &trans             &trans     &trans          &trans
+                          &bt BT_NXT       &trans                 &trans             &trans     &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
